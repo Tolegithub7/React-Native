@@ -1,14 +1,24 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const RooyLayout = () => {
+const RootLayout = () => {
   return (
     <View>
-      <Text>RooyLayout</Text>
+      <Text style={styles.container}>RootLayout</Text>
     </View>
   );
 };
 
-export default RooyLayout;
+export default RootLayout;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    display: "flex",
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    color: "blue",
+    fontWeight: "bold",
+    fontSize: "30px",
+  },
+});
