@@ -19,9 +19,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   text1: {
-    fontSize: 12,
+    fontSize: 40,
     fontWeight: "bold",
-    color: "red",
+    color: "blue",
   },
   text2: {
     color: "green",
