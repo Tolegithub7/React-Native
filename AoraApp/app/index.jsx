@@ -1,14 +1,20 @@
+import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
 
-const RootLayout = () => {
+export default function App() {
   return (
-    <View>
-      <Text> RootLayout</Text>
+    <View style={styles.container}>
+      <Text>Aora my first app ever</Text>
+      <StatusBar style="auto" />
     </View>
   );
-};
+}
 
-export default RootLayout;
-
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
