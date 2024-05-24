@@ -4,7 +4,7 @@ import { useFonts } from "expo-font";
 
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
-    "Poppins-Black": require("../assets/fonts/Poppins-Black.ttf"),
+    "Poppins-Black": require("../assets/fonts/"),
   });
   return (
     <Stack>
