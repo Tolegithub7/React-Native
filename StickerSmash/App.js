@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text1}>Tole</Text>
-      <Text style={styles.text2}>Funny right</Text>
+      <Text style={styles.text2}>Funny</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   text2: {
     color: "red",
-    fontSize: 20,
+    fontSize: 25,
     fontFamily: "Helvetica",
   },
 });
